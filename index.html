@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="revision" content="2026-09-10-remove-scope">
   <title>Agentic AI Media Buying System</title>
   <meta name="description" content="A schematic map of an AI assistant system for media buying across Meta, Google, TikTok and Snapchat.">
   <style>
@@ -85,7 +84,7 @@
     <div class="viewer-toolbar">
       <div class="zoom-controls" aria-label="Diagram zoom controls">
         <button type="button" data-zoom="out" aria-label="Zoom out">−</button>
-        <output aria-live="polite">95%</output>
+        <output aria-live="polite">115%</output>
         <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
         <button type="button" class="fit" data-zoom="reset">100%</button>
         <button type="button" class="fit" data-zoom="fit">Fit width</button>
@@ -185,7 +184,7 @@
       const output = document.querySelector('.zoom-controls output');
       const BOARD_WIDTH = 1500;
       const BOARD_HEIGHT = 1145;
-      let scale = .95;
+      let scale = 1.15;
 
       const applyScale = (nextScale, keepCenter = true) => {
         const oldScale = scale;
